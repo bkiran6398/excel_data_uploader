@@ -1,0 +1,14 @@
+<!-- <link href={{ url_for('static',filename = 'css/style.css')}} rel='stylesheet' type='text/css'> -->
+
+<div class="box1">
+    <h2>List of successfully uploaded documents:</h2>
+    {{success.to_html() | safe}}    
+</div>
+<hr>
+<div class="box1">
+    <h2>List of Failed/Unupload documents:</h2>
+    {{fail.to_html() | safe}}    
+</div>
+
+  
+<!-- <script src="{{ url_for('static',filename = 'js/jsc.js')}}" type="text/javascript"></script> -->

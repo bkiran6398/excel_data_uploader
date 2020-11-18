@@ -1,0 +1,7 @@
+{
+    "params":
+    {
+        "secret_key" : "this_is_an_example_secret_key",
+        "mongo_url":"mongodb+srv://tiger:tiger@cluster0.7zl37.mongodb.net/gitgyan?retryWrites=true&w=majority"
+    }
+}

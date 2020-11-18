@@ -1,0 +1,309 @@
+2020-11-18 18:15:22,478:INFO:Setting up configrations
+2020-11-18 18:15:22,734:INFO:Server Started
+2020-11-18 18:15:23,065:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:15:43,215:INFO:127.0.0.1 - - [18/Nov/2020 18:15:43] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:15:55,215:INFO:Login failed for user with email id: kirankirukanishka@gmail.com
+2020-11-18 18:15:55,219:INFO:127.0.0.1 - - [18/Nov/2020 18:15:55] "[37mPOST / HTTP/1.1[0m" 200 -
+2020-11-18 18:15:56,611:INFO:127.0.0.1 - - [18/Nov/2020 18:15:56] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:16:15,392:INFO:Login failed for user with email id: bkiran6398@gmail.com
+2020-11-18 18:16:15,393:INFO:127.0.0.1 - - [18/Nov/2020 18:16:15] "[37mPOST / HTTP/1.1[0m" 200 -
+2020-11-18 18:16:17,031:INFO:127.0.0.1 - - [18/Nov/2020 18:16:17] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:16:25,291:INFO:User with email: bkiran6398@gmail.com logged in. Generated Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDM2NDR9.HY49Ks5_KWHgPe7o44htfA4ejVF6iCazHQSRykzlFbw
+2020-11-18 18:16:25,295:INFO:127.0.0.1 - - [18/Nov/2020 18:16:25] "[32mPOST / HTTP/1.1[0m" 302 -
+2020-11-18 18:16:25,314:INFO:Token Validated
+2020-11-18 18:16:25,323:INFO:127.0.0.1 - - [18/Nov/2020 18:16:25] "[37mGET /loadexcel?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDM2NDR9.HY49Ks5_KWHgPe7o44htfA4ejVF6iCazHQSRykzlFbw HTTP/1.1[0m" 200 -
+2020-11-18 18:16:30,630:INFO:loaded file: DummyVariables_and_TestTrain.csv
+2020-11-18 18:16:30,986:INFO:Document uploaded in DB with _id: 5fb517a644abc997d93a9bb8
+2020-11-18 18:16:31,371:INFO:Document uploaded in DB with _id: 5fb517a644abc997d93a9bb9
+2020-11-18 18:16:31,686:INFO:Document uploaded in DB with _id: 5fb517a744abc997d93a9bba
+2020-11-18 18:16:31,997:INFO:Document uploaded in DB with _id: 5fb517a744abc997d93a9bbb
+2020-11-18 18:16:32,394:INFO:Document uploaded in DB with _id: 5fb517a744abc997d93a9bbc
+2020-11-18 18:16:32,726:INFO:Document uploaded in DB with _id: 5fb517a844abc997d93a9bbd
+2020-11-18 18:16:33,061:INFO:Document uploaded in DB with _id: 5fb517a844abc997d93a9bbe
+2020-11-18 18:16:33,623:INFO:Document uploaded in DB with _id: 5fb517a944abc997d93a9bbf
+2020-11-18 18:16:34,033:INFO:Document uploaded in DB with _id: 5fb517a944abc997d93a9bc0
+2020-11-18 18:16:34,616:INFO:Document uploaded in DB with _id: 5fb517aa44abc997d93a9bc1
+2020-11-18 18:16:35,055:INFO:Document uploaded in DB with _id: 5fb517aa44abc997d93a9bc2
+2020-11-18 18:16:35,518:INFO:Document uploaded in DB with _id: 5fb517ab44abc997d93a9bc3
+2020-11-18 18:16:35,875:INFO:Document uploaded in DB with _id: 5fb517ab44abc997d93a9bc4
+2020-11-18 18:16:35,897:INFO:127.0.0.1 - - [18/Nov/2020 18:16:35] "[37mGET /load_database?my_file=DummyVariables_and_TestTrain.csv HTTP/1.1[0m" 200 -
+2020-11-18 18:25:43,925:INFO:Setting up configrations
+2020-11-18 18:25:44,255:INFO:Server Started
+2020-11-18 18:25:44,849:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:25:53,063:INFO:127.0.0.1 - - [18/Nov/2020 18:25:53] "[33mGET /load HTTP/1.1[0m" 404 -
+2020-11-18 18:25:54,062:INFO:127.0.0.1 - - [18/Nov/2020 18:25:54] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:26:04,288:INFO:User with email: bkiran6398@gmail.com logged in. Generated Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDQyMjN9.qKAezZDfuIH_WEe5XNHcPDjFG5xanx1ubVR99FRfLk0
+2020-11-18 18:26:04,289:INFO:127.0.0.1 - - [18/Nov/2020 18:26:04] "[32mPOST / HTTP/1.1[0m" 302 -
+2020-11-18 18:26:04,585:ERROR:Exception on /loadexcel [GET]
+Traceback (most recent call last):
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 39, in wrapped
+    token = users.find_one({'email': email})['token']
+TypeError: 'NoneType' object is not subscriptable
+2020-11-18 18:26:04,596:INFO:127.0.0.1 - - [18/Nov/2020 18:26:04] "[35m[1mGET /loadexcel?email=email HTTP/1.1[0m" 500 -
+2020-11-18 18:26:53,698:INFO:127.0.0.1 - - [18/Nov/2020 18:26:53] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:27:01,036:INFO:User with email: bkiran6398@gmail.com logged in. Generated Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDQyODB9.LT5MoDwGx9gYCbVPi6nxRag-_C7GPSJICySuSrxdZSk
+2020-11-18 18:27:01,040:INFO:127.0.0.1 - - [18/Nov/2020 18:27:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2020-11-18 18:27:01,438:ERROR:Exception on /loadexcel [GET]
+Traceback (most recent call last):
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 39, in wrapped
+    token = users.find_one({'email': email})['token']
+TypeError: 'NoneType' object is not subscriptable
+2020-11-18 18:27:01,446:INFO:127.0.0.1 - - [18/Nov/2020 18:27:01] "[35m[1mGET /loadexcel?email=email HTTP/1.1[0m" 500 -
+2020-11-18 18:28:39,258:INFO:127.0.0.1 - - [18/Nov/2020 18:28:39] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:28:47,423:INFO:User with email: bkiran6398@gmail.com logged in. Generated Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDQzODd9.eTr00_z9awoN8TXXyMUU7REYtAAMgT4qQs97dF_jriI
+2020-11-18 18:28:47,425:INFO:127.0.0.1 - - [18/Nov/2020 18:28:47] "[32mPOST / HTTP/1.1[0m" 302 -
+2020-11-18 18:28:47,832:ERROR:Exception on /loadexcel [GET]
+Traceback (most recent call last):
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 39, in wrapped
+    token = users.find_one({'email': email})['token']
+TypeError: 'NoneType' object is not subscriptable
+2020-11-18 18:28:47,842:INFO:127.0.0.1 - - [18/Nov/2020 18:28:47] "[35m[1mGET /loadexcel?email=email HTTP/1.1[0m" 500 -
+2020-11-18 18:31:10,373:INFO:127.0.0.1 - - [18/Nov/2020 18:31:10] "[33mGET /loadexce HTTP/1.1[0m" 404 -
+2020-11-18 18:31:14,308:ERROR:Exception on /loadexcel [GET]
+Traceback (most recent call last):
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 39, in wrapped
+    token = users.find_one({'email': email})['token']
+TypeError: 'NoneType' object is not subscriptable
+2020-11-18 18:31:14,312:INFO:127.0.0.1 - - [18/Nov/2020 18:31:14] "[35m[1mGET /loadexcel?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDE1MTN9.XhUwtztQmLr6hvqyWWnIzzkb6LVpQyTye2-Fv5k2Qak HTTP/1.1[0m" 500 -
+2020-11-18 18:31:21,344:INFO:127.0.0.1 - - [18/Nov/2020 18:31:21] "[33mGET /load HTTP/1.1[0m" 404 -
+2020-11-18 18:31:23,146:INFO:127.0.0.1 - - [18/Nov/2020 18:31:23] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:31:32,697:INFO:User with email: bkiran6398@gmail.com logged in. Generated Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDQ1NTJ9.LPiTnWtD0_6EURu4hGK6__N1mJE8FxB3XlXRMxhZ__8
+2020-11-18 18:31:32,699:INFO:127.0.0.1 - - [18/Nov/2020 18:31:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2020-11-18 18:31:33,012:ERROR:Exception on /loadexcel [GET]
+Traceback (most recent call last):
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 39, in wrapped
+    token = users.find_one({'email': email})['token']
+TypeError: 'NoneType' object is not subscriptable
+2020-11-18 18:31:33,021:INFO:127.0.0.1 - - [18/Nov/2020 18:31:33] "[35m[1mGET /loadexcel?email=email HTTP/1.1[0m" 500 -
+2020-11-18 18:32:29,543:INFO:127.0.0.1 - - [18/Nov/2020 18:32:29] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:32:38,094:INFO:User with email: bkiran6398@gmail.com logged in. Generated Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDQ2MTd9.rZ9qCQyiia6AhZytCXvBC5gMS1-4truZqo0WpMzAYUU
+2020-11-18 18:32:38,096:INFO:127.0.0.1 - - [18/Nov/2020 18:32:38] "[32mPOST / HTTP/1.1[0m" 302 -
+2020-11-18 18:32:38,437:ERROR:Exception on /loadexcel [GET]
+Traceback (most recent call last):
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kirkumar\OneDrive - AMDOCS\Backup Folders\Desktop\CloudWorx\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 39, in wrapped
+    token = users.find_one({'email': email})['token']
+TypeError: 'NoneType' object is not subscriptable
+2020-11-18 18:32:38,446:INFO:127.0.0.1 - - [18/Nov/2020 18:32:38] "[35m[1mGET /loadexcel?email=email HTTP/1.1[0m" 500 -
+2020-11-18 18:35:05,067:INFO:Setting up configrations
+2020-11-18 18:35:05,358:INFO:Server Started
+2020-11-18 18:35:06,025:INFO: * Restarting with stat
+2020-11-18 18:35:07,835:INFO:Setting up configrations
+2020-11-18 18:35:08,103:INFO:Server Started
+2020-11-18 18:35:08,134:WARNING: * Debugger is active!
+2020-11-18 18:35:08,152:INFO: * Debugger PIN: 480-606-677
+2020-11-18 18:35:08,163:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:35:32,011:INFO:127.0.0.1 - - [18/Nov/2020 18:35:32] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:36:01,025:INFO:User with email: bkiran6398@gmail.com logged in. Generated Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDQ4MjB9.YYjR1a_L_2pGcAjpsu2vFjJvx4nSk_-3_UVlD0G717g
+2020-11-18 18:36:01,027:INFO:127.0.0.1 - - [18/Nov/2020 18:36:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2020-11-18 18:36:01,599:INFO:Token Validated
+2020-11-18 18:36:01,605:INFO:127.0.0.1 - - [18/Nov/2020 18:36:01] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:20,850:INFO:Token Validated
+2020-11-18 18:36:20,851:INFO:127.0.0.1 - - [18/Nov/2020 18:36:20] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:22,897:INFO:Token Validated
+2020-11-18 18:36:22,899:INFO:127.0.0.1 - - [18/Nov/2020 18:36:22] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:25,586:INFO:Token Validated
+2020-11-18 18:36:25,588:INFO:127.0.0.1 - - [18/Nov/2020 18:36:25] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:26,995:INFO:Token Validated
+2020-11-18 18:36:26,999:INFO:127.0.0.1 - - [18/Nov/2020 18:36:26] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:30,066:INFO:Token Validated
+2020-11-18 18:36:30,068:INFO:127.0.0.1 - - [18/Nov/2020 18:36:30] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:31,565:INFO:Token Validated
+2020-11-18 18:36:31,567:INFO:127.0.0.1 - - [18/Nov/2020 18:36:31] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:33,620:INFO:Token Validated
+2020-11-18 18:36:33,622:INFO:127.0.0.1 - - [18/Nov/2020 18:36:33] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:36,210:INFO:Token Validated
+2020-11-18 18:36:36,212:INFO:127.0.0.1 - - [18/Nov/2020 18:36:36] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:39,691:INFO:Token Validated
+2020-11-18 18:36:39,692:INFO:127.0.0.1 - - [18/Nov/2020 18:36:39] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:46,823:INFO:Token Validated
+2020-11-18 18:36:46,826:INFO:127.0.0.1 - - [18/Nov/2020 18:36:46] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:49,577:INFO:Token Validated
+2020-11-18 18:36:49,580:INFO:127.0.0.1 - - [18/Nov/2020 18:36:49] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:51,893:INFO:Token Validated
+2020-11-18 18:36:51,895:INFO:127.0.0.1 - - [18/Nov/2020 18:36:51] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:53,823:INFO:Token Validated
+2020-11-18 18:36:53,827:INFO:127.0.0.1 - - [18/Nov/2020 18:36:53] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:56,484:INFO:Token Validated
+2020-11-18 18:36:56,486:INFO:127.0.0.1 - - [18/Nov/2020 18:36:56] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:36:59,085:INFO:Token Validated
+2020-11-18 18:36:59,088:INFO:127.0.0.1 - - [18/Nov/2020 18:36:59] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:37:01,612:INFO:127.0.0.1 - - [18/Nov/2020 18:37:01] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:37:04,241:INFO:127.0.0.1 - - [18/Nov/2020 18:37:04] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:37:12,356:INFO:User with email: bkiran6398@gmail.com logged in. Generated Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDQ4OTF9.URUG54wCAO9rZz2VyCjWEXOsjJaJheECxX0lFwFGiRA
+2020-11-18 18:37:12,358:INFO:127.0.0.1 - - [18/Nov/2020 18:37:12] "[32mPOST / HTTP/1.1[0m" 302 -
+2020-11-18 18:37:12,927:INFO:Token Validated
+2020-11-18 18:37:12,928:INFO:127.0.0.1 - - [18/Nov/2020 18:37:12] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:37:19,385:INFO:127.0.0.1 - - [18/Nov/2020 18:37:19] "[35m[1mGET /loadexcel?email=bkiran6398@gmail.co HTTP/1.1[0m" 500 -
+2020-11-18 18:37:19,432:INFO:127.0.0.1 - - [18/Nov/2020 18:37:19] "[37mGET /loadexcel?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-11-18 18:37:19,433:INFO:127.0.0.1 - - [18/Nov/2020 18:37:19] "[37mGET /loadexcel?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-11-18 18:37:19,435:INFO:127.0.0.1 - - [18/Nov/2020 18:37:19] "[37mGET /loadexcel?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-11-18 18:37:19,542:INFO:127.0.0.1 - - [18/Nov/2020 18:37:19] "[37mGET /loadexcel?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-11-18 18:37:19,550:INFO:127.0.0.1 - - [18/Nov/2020 18:37:19] "[37mGET /loadexcel?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-11-18 18:37:19,577:INFO:127.0.0.1 - - [18/Nov/2020 18:37:19] "[37mGET /loadexcel?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-11-18 18:38:12,120:INFO: * Detected change in 'C:\\Users\\kirkumar\\OneDrive - AMDOCS\\Backup Folders\\Desktop\\CloudWorx\\main.py', reloading
+2020-11-18 18:38:12,730:INFO: * Restarting with stat
+2020-11-18 18:44:59,554:INFO:Setting up configrations
+2020-11-18 18:44:59,880:INFO:Server Started
+2020-11-18 18:45:00,230:INFO: * Restarting with stat
+2020-11-18 18:45:02,298:INFO:Setting up configrations
+2020-11-18 18:45:02,564:INFO:Server Started
+2020-11-18 18:45:02,586:WARNING: * Debugger is active!
+2020-11-18 18:45:02,605:INFO: * Debugger PIN: 480-606-677
+2020-11-18 18:45:02,617:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:45:02,932:INFO:127.0.0.1 - - [18/Nov/2020 18:45:02] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:45:12,646:INFO:User with email: bkiran6398@gmail.com logged in. Generated Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDUzNzJ9.DWwwYdXyJ9Le4DxJ8GtwmVXq8FQA4jO6v2_ISEVocj0
+2020-11-18 18:45:12,647:INFO:127.0.0.1 - - [18/Nov/2020 18:45:12] "[32mPOST / HTTP/1.1[0m" 302 -
+2020-11-18 18:45:13,088:INFO:Token Validated
+2020-11-18 18:45:13,096:INFO:127.0.0.1 - - [18/Nov/2020 18:45:13] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:45:19,942:INFO:127.0.0.1 - - [18/Nov/2020 18:45:19] "[35m[1mGET /loadexcel?email=bkiran6398@gmail.co HTTP/1.1[0m" 500 -
+2020-11-18 18:45:19,991:INFO:127.0.0.1 - - [18/Nov/2020 18:45:19] "[37mGET /loadexcel?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-11-18 18:45:19,995:INFO:127.0.0.1 - - [18/Nov/2020 18:45:19] "[37mGET /loadexcel?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-11-18 18:45:19,995:INFO:127.0.0.1 - - [18/Nov/2020 18:45:19] "[37mGET /loadexcel?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-11-18 18:45:20,171:INFO:127.0.0.1 - - [18/Nov/2020 18:45:20] "[37mGET /loadexcel?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-11-18 18:45:20,179:INFO:127.0.0.1 - - [18/Nov/2020 18:45:20] "[37mGET /loadexcel?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2020-11-18 18:45:45,756:INFO: * Detected change in 'C:\\Users\\kirkumar\\OneDrive - AMDOCS\\Backup Folders\\Desktop\\CloudWorx\\main.py', reloading
+2020-11-18 18:45:46,300:INFO: * Restarting with stat
+2020-11-18 18:45:50,444:INFO:Setting up configrations
+2020-11-18 18:45:50,984:INFO:Server Started
+2020-11-18 18:45:51,033:WARNING: * Debugger is active!
+2020-11-18 18:45:51,075:INFO: * Debugger PIN: 480-606-677
+2020-11-18 18:45:51,104:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:45:57,093:INFO: * Detected change in 'C:\\Users\\kirkumar\\OneDrive - AMDOCS\\Backup Folders\\Desktop\\CloudWorx\\main.py', reloading
+2020-11-18 18:45:57,638:INFO: * Restarting with stat
+2020-11-18 18:46:02,190:INFO:Setting up configrations
+2020-11-18 18:46:02,731:INFO:Server Started
+2020-11-18 18:46:02,773:WARNING: * Debugger is active!
+2020-11-18 18:46:02,815:INFO: * Debugger PIN: 480-606-677
+2020-11-18 18:46:03,507:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:46:17,046:INFO: * Detected change in 'C:\\Users\\kirkumar\\OneDrive - AMDOCS\\Backup Folders\\Desktop\\CloudWorx\\main.py', reloading
+2020-11-18 18:46:17,624:INFO: * Restarting with stat
+2020-11-18 18:46:21,511:INFO:Setting up configrations
+2020-11-18 18:46:21,888:INFO:Server Started
+2020-11-18 18:46:21,918:WARNING: * Debugger is active!
+2020-11-18 18:46:21,938:INFO: * Debugger PIN: 480-606-677
+2020-11-18 18:46:21,953:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:46:27,260:INFO: * Detected change in 'C:\\Users\\kirkumar\\OneDrive - AMDOCS\\Backup Folders\\Desktop\\CloudWorx\\main.py', reloading
+2020-11-18 18:46:27,550:INFO: * Restarting with stat
+2020-11-18 18:46:31,322:INFO:Setting up configrations
+2020-11-18 18:46:32,114:INFO:Server Started
+2020-11-18 18:46:32,173:WARNING: * Debugger is active!
+2020-11-18 18:46:32,226:INFO: * Debugger PIN: 480-606-677
+2020-11-18 18:46:32,258:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:46:40,404:INFO: * Detected change in 'C:\\Users\\kirkumar\\OneDrive - AMDOCS\\Backup Folders\\Desktop\\CloudWorx\\main.py', reloading
+2020-11-18 18:46:40,943:INFO: * Restarting with stat
+2020-11-18 18:46:45,305:INFO:Setting up configrations
+2020-11-18 18:46:45,761:INFO:Server Started
+2020-11-18 18:46:45,790:WARNING: * Debugger is active!
+2020-11-18 18:46:45,812:INFO: * Debugger PIN: 480-606-677
+2020-11-18 18:46:45,829:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:46:55,401:INFO: * Detected change in 'C:\\Users\\kirkumar\\OneDrive - AMDOCS\\Backup Folders\\Desktop\\CloudWorx\\main.py', reloading
+2020-11-18 18:46:55,918:INFO: * Restarting with stat
+2020-11-18 18:46:59,746:INFO:Setting up configrations
+2020-11-18 18:47:00,245:INFO:Server Started
+2020-11-18 18:47:00,288:WARNING: * Debugger is active!
+2020-11-18 18:47:00,339:INFO: * Debugger PIN: 480-606-677
+2020-11-18 18:47:00,368:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:47:43,646:INFO: * Detected change in 'C:\\Users\\kirkumar\\OneDrive - AMDOCS\\Backup Folders\\Desktop\\CloudWorx\\main.py', reloading
+2020-11-18 18:47:44,032:INFO: * Restarting with stat
+2020-11-18 18:47:48,309:INFO:Setting up configrations
+2020-11-18 18:47:48,735:INFO:Server Started
+2020-11-18 18:47:48,753:WARNING: * Debugger is active!
+2020-11-18 18:47:48,770:INFO: * Debugger PIN: 480-606-677
+2020-11-18 18:47:49,378:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:49:05,672:INFO:Setting up configrations
+2020-11-18 18:49:05,973:INFO:Server Started
+2020-11-18 18:49:06,323:INFO: * Restarting with stat
+2020-11-18 18:49:08,132:INFO:Setting up configrations
+2020-11-18 18:49:08,422:INFO:Server Started
+2020-11-18 18:49:08,440:WARNING: * Debugger is active!
+2020-11-18 18:49:08,457:INFO: * Debugger PIN: 480-606-677
+2020-11-18 18:49:08,467:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-11-18 18:49:17,555:INFO:127.0.0.1 - - [18/Nov/2020 18:49:17] "[37mGET / HTTP/1.1[0m" 200 -
+2020-11-18 18:49:28,307:INFO:User with email: bkiran6398@gmail.com logged in. Generated Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYmtpcmFuNjM5OEBnbWFpbC5jb20iLCJleHAiOjE2MDU3MDU2Mjd9.e6JfjKtLXyZlcENoxYOa6YFmJKF5_Vc_C0aVkI1_-tw
+2020-11-18 18:49:28,308:INFO:127.0.0.1 - - [18/Nov/2020 18:49:28] "[32mPOST / HTTP/1.1[0m" 302 -
+2020-11-18 18:49:28,636:INFO:Token Validated
+2020-11-18 18:49:28,642:INFO:127.0.0.1 - - [18/Nov/2020 18:49:28] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:49:33,212:INFO:127.0.0.1 - - [18/Nov/2020 18:49:33] "[37mGET /loadexcel?email=bkiran6398@gmail.co HTTP/1.1[0m" 200 -
+2020-11-18 18:49:47,763:INFO:Token Validated
+2020-11-18 18:49:47,767:INFO:127.0.0.1 - - [18/Nov/2020 18:49:47] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:49:53,297:INFO:127.0.0.1 - - [18/Nov/2020 18:49:53] "[37mGET /loadexcel?email=bkiran6398@gmail.co HTTP/1.1[0m" 200 -
+2020-11-18 18:49:58,617:INFO:Token Validated
+2020-11-18 18:49:58,619:INFO:127.0.0.1 - - [18/Nov/2020 18:49:58] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:50:23,335:INFO:Token Validated
+2020-11-18 18:50:23,337:INFO:127.0.0.1 - - [18/Nov/2020 18:50:23] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:50:27,697:INFO:Token Validated
+2020-11-18 18:50:27,699:INFO:127.0.0.1 - - [18/Nov/2020 18:50:27] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:50:31,265:INFO:127.0.0.1 - - [18/Nov/2020 18:50:31] "[37mGET /loadexcel?email=bkiran6398@gmail.com HTTP/1.1[0m" 200 -
+2020-11-18 18:50:33,656:INFO:127.0.0.1 - - [18/Nov/2020 18:50:33] "[37mGET / HTTP/1.1[0m" 200 -
