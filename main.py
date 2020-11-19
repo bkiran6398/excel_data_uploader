@@ -8,22 +8,29 @@ from pymongo import MongoClient
 import pandas as pd
 import logging
 
+#configure logging file
 logging.basicConfig(filename='cloudworx.log', level=logging.INFO,
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
+#create flask object
 app = Flask(__name__)
 logging.info(f'Setting up configrations')
+
+#read config file
 with open('./config.json', 'r') as config_file:
     params = json.load(config_file)['params']
 
 app.config['SECRET_KEY'] = params['secret_key']
 
+#setup mongo Clint to access DB
 mongo_clint = MongoClient(params['mongo_url'])
 db = mongo_clint.get_database('cloudworx')
+#users collection is for login verification
+#csv_data collection is to load input file data
 users = db.users
 csv_data = db.csv_data
 
-
+#validate login credentials
 def validate_account(email, password):
     account = users.find_one({'email': email})
 
@@ -31,7 +38,7 @@ def validate_account(email, password):
         return False
     return True
 
-
+#decorator to check and validate token
 def check_for_token(func):
     @wraps(func)
     def wrapped(*args, **kwargs):
@@ -55,7 +62,7 @@ def check_for_token(func):
         return func(*args, **kwargs)
     return wrapped
 
-
+#generate token only if the login credentials are valid
 @app.route('/', methods=['POST'])
 def token_gen():
     email = request.form['email']
@@ -80,14 +87,14 @@ def token_gen():
 def login():
     return render_template('login.html')
 
-
+#validate token, then allow file upload if validation successful
 @app.route('/loadexcel', methods=['GET'])
 @check_for_token
 def loadexcel():
     logging.info(f'Token Validated')
     return render_template('upload_excel.html')
 
-
+#upload read files into db and display results
 @app.route('/load_database', methods=['GET'])
 def load_database():
     my_file = request.args.get('my_file')
